@@ -1,0 +1,20 @@
+.ol-map {
+    min-width: 100px;
+    min-height: 80px;
+    height: 500px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin: 1px;
+    padding: 1px;
+  }
+  .ol-control {
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 4px;
+    padding: 2px;
+  }
+  .ol-full-screen {
+    top: .5em;
+    right: .5em;
+  }

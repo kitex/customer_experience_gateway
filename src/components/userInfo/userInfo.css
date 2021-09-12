@@ -1,0 +1,22 @@
+.userInfo{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.userInfoItem{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.userInfoItem>input{
+    height: 20px;
+    padding: 10px;
+    border:1 px solid gray;
+    border-radius: 5px;
+}

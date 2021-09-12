@@ -1,0 +1,119 @@
+.sidebar{
+    display: flex;
+    height: calc(100vh-50px);
+    background-color: rgb(148, 136, 136);
+    position: sticky;
+    top: 50px;
+    height: 93vh;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    left: -100%;
+    position: fixed;
+    left: -100%;
+    transition: 850ms;
+    display: flex;    
+}
+
+.sidebarWrapper.active {
+    left: 0;
+    transition: 350ms;
+ }
+
+
+.sidebarWrapper {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+ }
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+    color: darkgray;
+}
+
+.sidebarList{
+    list-style: none;
+}
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 10px;
+}
+
+.sidebarListItem.active,.sidebarListItem:hover {
+background-color: darkgray;
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}
+
+.linkstyle{
+   text-decoration: none;
+   text-decoration-color: none;
+}
+/* prevent color change of link */
+a:link, a:visited {
+    color:inherit;
+}
+a:hover {
+    color: inherit;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+
+.navExpand{
+    width: 2rem;
+    height: 2rem;
+    fill: var(--clr-gray400);
+    background-color: rgb(128, 123, 123);
+    box-shadow: 0px 0px 10px var(--clr-gray300);
+    border-radius: 50%;
+    position: absolute;
+    right: -1rem;
+    top: 1rem;
+    z-index: 99;
+    cursor: pointer;
+    transform: rotatez(-180deg);
+    transition: transform 200ms ease-in-out;
+    box-shadow: 0px 0px 10px var(--clr-gray300);
+}
+
+
+
+#navExpandSvg:hover{
+    fill: purple;
+}
+
+

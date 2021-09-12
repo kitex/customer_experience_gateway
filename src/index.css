@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Black'), url(./fonts/SourceSansPro-Black.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-BlackItalic'), url(./fonts/SourceSansPro-BlackItalic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Bold'), url(./fonts/SourceSansPro-Bold.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Bold'), url(./fonts/SourceSansPro-Bold.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-BoldItalic'), url(./fonts/SourceSansPro-BoldItalic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-ExtraLight'), url(./fonts/SourceSansPro-ExtraLight.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-ExtraLightItalic'), url(./fonts/SourceSansPro-ExtraLightItalic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Italic'), url(./fonts/SourceSansPro-Italic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Light'), url(./fonts/SourceSansPro-Light.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-LightItalic'), url(./fonts/SourceSansPro-LightItalic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-Regular'), url(./fonts/SourceSansPro-Regular.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-SemiBold'), url(./fonts/SourceSansPro-SemiBold.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+
+  @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro-SemiBoldItalic'), url(./fonts/SourceSansPro-SemiBoldItalic.ttf) format('ttf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  *{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
